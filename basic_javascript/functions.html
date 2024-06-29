@@ -13,6 +13,28 @@
         }
 
         console.log(add7(8));
+        //create function that takes two numbers and returns their product
+        function multiply(num1, num2){
+
+            return num1 * num2;
+        }
+        console.log(`multiply function: ${multiply(2, 5)}`);
+        //create a function  that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize(string){
+            console.log(`old string: ${string}`)
+            newString = string.slice(0,1).toUpperCase() + string.slice(1).toLowerCase()
+            console.log (`capitalized string: ${newString}`);
+            /*
+            for (let i = 0; i < string.length(); i++){
+                if(i == 0){
+                    newString += string.slice(i,i+1);
+                }
+                newString +=
+            }
+                */
+        }
+        capitalize('nope');
+        capitalize('HELLOOOOO WORLD')
     </script>
 </body>
 </html>
