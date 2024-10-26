@@ -41,3 +41,6 @@ html {
   tfoot {
     font-weight: bold;
   }
+  col#col2{
+    border: 1px solid red;
+  }
